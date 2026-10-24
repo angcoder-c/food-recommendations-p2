@@ -5,7 +5,7 @@ export async function GET() {
     const session = driver.session();
 
     try {
-        return NextResponse.json({ msg : 'pong' });
+        return NextResponse.json({ msg: 'pong' });
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
     } finally {
