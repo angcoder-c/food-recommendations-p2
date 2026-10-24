@@ -1,19 +1,16 @@
+```ts
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns : [
+    remotePatterns: [
       {
-      protocol: 'https',
-      hostname: '**',
-      },
-      {
-      protocol: 'http',
-      hostname: '**', 
+        protocol: "https",
+        hostname: "grupogogreen.com",
       },
     ],
-    domains: ['grupogogreen.com'],
   },
 };
 
 export default nextConfig;
+```
