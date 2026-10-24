@@ -20,12 +20,12 @@
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.511.0",
     "neo4j-driver": "^5.28.1",
-    "next": "^16.2.6",
+    "next": "^16.4.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.56.4",
     "tailwind-merge": "^3.3.0",
-    "zod": "^3.25.30",
+    "zod": "^4.6.6",
     "zustand": "^5.0.5"
   },
   "devDependencies": {
